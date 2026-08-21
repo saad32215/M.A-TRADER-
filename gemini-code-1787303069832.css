@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #222;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: #111827;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3b82f6;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.95rem;
+}
+
+header nav a:hover {
+    color: #3b82f6;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1200x400') center/cover;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #d1d5db;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 18px;
+    background: #25d366; /* WhatsApp Green */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background: #1ebc57;
+}
+
+.hero-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 1.05rem;
+}
+
+.category {
+    padding: 60px 5%;
+    text-align: center;
+}
+
+.alt-bg {
+    background: #eceff1;
+}
+
+.category h2 {
+    font-size: 1.8rem;
+    color: #111827;
+}
+
+.subtitle {
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0 8px 0;
+    color: #1f2937;
+}
+
+.card p {
+    color: #4b5563;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.wa-card-btn {
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 10px;
+    background: #e0f2fe;
+    color: #0369a1;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.gaming-tag {
+    background: #f3e8ff;
+    color: #6b21a8;
+}
+
+.contact {
+    padding: 60px 20px;
+    background: #111827;
+    color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 15px;
+}
+
+.contact p {
+    margin: 8px 0;
+    color: #d1d5db;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #030712;
+    color: #9ca3af;
+    font-size: 0.85rem;
+}
